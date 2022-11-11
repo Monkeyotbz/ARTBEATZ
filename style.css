@@ -1,0 +1,689 @@
+
+body{
+    background-image:url(/Background/tom.jpg); 
+    background-size: 60%;
+    font-size: 25px;
+    font-family: 'Mohave', sans-serif;  
+}
+body background {
+    filter:alpha(opacity=60); opacity:50%;
+}
+/* informacion de redes */
+.bar__uno{
+    background: rgba(255, 255, 255, 0.76);
+    opacity: 100%;
+    width:100%;
+    height: 80px;
+
+}
+.boton__instagram {
+    border: none;
+    position: relative;
+    padding: 5px;
+    margin: 5px 5px;
+    display: inline-block;
+    left: 85%;
+    color: black;
+}
+.instagram :hover {
+    color: lawngreen;
+}
+.boton__facebook {
+    border: none;
+    position: relative;
+    padding: 5px;
+    margin: 5px 5px;
+    display: inline-block;
+    left: 85%;
+    color: black;
+}
+.facebook :hover {
+    color: rgb(252, 0, 0);
+}
+/* carrito de compras  */
+.car {
+    border: 2px groove rgb(0, 0, 0);
+    position: relative;
+    padding: 5px;
+    margin: 5px 5px;
+    display: flex;
+    width: 50px;
+    left: 80%;
+    color: rgb(0, 0, 0);
+    top: -1.7em;
+    box-shadow: 0 0 10px 2px red;
+    border-radius: 50";
+}
+.car :hover {
+    color: lawngreen;
+
+}
+/* ------------------------------------header ---------------------------*/
+
+.header {
+    padding: 1em;
+    /* width: 90rem; */
+    height: 12rem;
+    display: flex;  
+    justify-content: flex-start;
+    background: rgb(0, 0, 0);
+    opacity: 80%;
+    box-shadow: 0em 0em 10px 10px rgb(255, 0, 0);  
+}
+
+/*------------------------------ logo-------------------------------------- */
+.logo1 { 
+    padding: 1px;
+    width: 400px;
+    height: 80%;
+    border: 50px  rgb(0, 0, 0);
+    position: relative;
+    left: 5%;
+    top: -5em;
+    border-radius: 10%;
+    box-shadow: 0em 0em 10px 1px rgb(0, 0, 0);  
+}
+/*--------------------------------- barra de busqueda---------------------------------- */
+.barra__buscar {
+    display: flex;
+    padding: 5px;
+    position: relative;
+    border: 10px inset rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    top: -15em;
+    left: 90%;
+}
+.barra__buscar{
+    border-radius: 5px;
+    width: 20em;
+    justify-content: center; 
+}
+.text__bar{
+    color:white;
+    display: flex;
+    position: relative;
+    top: -7.8em;
+    left: 90%;
+    font-family: 'Mohave', sans-serif;
+    font-size: 50px;
+}
+/* --------------------------------------lupa------------------------------------------  */
+.lupa{
+    color: rgb(255, 255, 255);
+    display: block;
+    position: relative;
+    top: -16.8em;
+    left: 170%;
+    width: 5em;
+}
+.menu button{
+    cursor: pointer;
+    background: rgb(12, 12, 12);
+    border-radius: 20%;
+    box-shadow: 0em 0em 10px 0em rgb(255, 255, 255);
+    opacity: 90%;
+}
+.menu button :hover{
+    color: white;
+    transition: all 200ms ease;
+    
+}
+.lupa ion-icon {
+    width:20px;
+    height: 20px;
+}
+.lupa :hover{
+    color:  rgb(0, 0, 0);
+    transition-duration: 150ms;
+    border-radius: 20px;
+}
+
+
+/*------------------------------ menu flex--------------------------------------- */
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+.submenu{
+    display: flex;
+    position: relative;
+    padding: 10px;
+    background: none;
+    opacity: 100%;
+    margin: 50px;
+    justify-content:center;
+    box-shadow: 0em 0em 30px 1em rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.submenu :hover {
+    background: rgb(255, 255, 255);
+    opacity: 100%;
+}
+/* -----------------------------bonton del menu ------------------------------------*/
+.boton__menu {
+    margin: 10px 5px;
+    padding: 20px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    box-shadow: 0em 0em 20px 0em rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.boton__menu :hover{
+    color: rgba(6, 240, 57, 0.616);
+    transition: all 200ms ease;
+    cursor: pointer;
+    
+}
+.boton__menu ion-icon {
+    color: rgb(255, 4, 4);
+}
+
+.menu-form{
+    font-size: 30px;
+    margin: 10px 10px;
+    padding: 20px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    box-shadow: 0em 0em 20px 0em rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.menu-form :hover{
+    background:none;
+    transition: all 200ms ease;
+    cursor: pointer;
+    color: rgb(252, 0, 0);
+}
+.menu-form a {
+    text-decoration: none;
+    color: lavender;
+}
+/* -----------------------------artistas----------------------------------- */
+
+.artistas {
+    background:black;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    width: 95%; 
+    height: 800px;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 0em 0em 20px 0em rgb(0, 0, 0);
+}
+/* -----------------------------------titulo -----------------------------*/
+.abril__artista {
+    width: 800px;
+    height: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(0, 0, 0);
+}
+.abril__artista {
+    border-radius: 10px;
+    border: 2px groove rgb(255, 255, 255);
+    opacity: 90%;
+    box-shadow: 0em 0em 10px 2px honeydew;
+    
+}
+
+/* --------------------------------abril------------------------------------ */
+
+.abril {
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    margin: 2px 2px;
+    left: 15%;
+    top: 40%;
+}
+.abril__parrafo {
+    width: 200px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    left: 15%;
+    top: 40%;
+}
+.imgabril {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    left: 15%;
+    top: 60%;
+    border-radius: 100%;
+    border: 2px groove rgb(0, 0, 0);
+    box-shadow: 0 0 10px 1px red;
+}
+/*----------------------------------------- barberi ---------------------------------------*/
+
+.barberi {
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    margin: 2px 2px;
+    left: 45%;
+    top: -820%;
+}
+.barberi__parrafo {
+    width: 200px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    left: 45%;
+    top: -240%;
+}
+.barberiimg{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    left: 45%;
+    top: -140%;
+    border-radius: 100%;
+    border: 2px groove rgb(0, 0, 0);
+    box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+}
+ /*---------------------- monkey---------------------------------- */
+
+.monkey {
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    margin: 2px 2px;
+    left: 75%;
+    top: -1670%;
+}
+.monkey__parrafo{
+    width: 200px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    left: 75%;
+    top: -515%;
+}
+.monkeyimg{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    left: 75%;
+    top: -340%;
+    border-radius: 100%;
+    border: 2px groove rgb(0, 0, 0);
+    box-shadow: 0 0 10px 2px rgb(255, 0, 0);
+}
+/* --------------------------------beats--------------------------- */
+
+.beats {
+    background:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 95%; 
+    height: 1600px;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 0em 0em 20px 0em rgb(0, 0, 0);
+}
+
+.beats__artist{
+    width: 800px;
+    height: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(0, 0, 0);
+}
+.beats__artist{
+    border-radius: 10px;
+    border: 2px groove rgb(255, 255, 255);
+    box-shadow: 0 0 10px 2px white;
+}
+/*------------------------------- beatz abril --------------------------------*/
+.beats__artist_follow_abril{
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    margin: 20px 60px;
+    top: 1.6em;
+    width: 500px;
+    height: 500px;
+    border: 5px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    background-image: url(/Diseños/designe1.jpeg);
+    background-size: 100%;
+    box-shadow: 0 0 10px 2px rgb(255, 0, 0);
+}
+
+.abril__beats{
+    position: relative;
+    top: 3%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    float: inline-end;
+}
+.name__song1{
+    position: relative;
+    top: -2%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    float: inline-end;
+}
+.img_miniatura_abril{
+    width: 80px;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    left: 5%;
+    top:-4.5em;
+    border: 3px solid white;
+}
+.like_abril{
+    position: relative;
+    display: flex;
+    left: 10em;
+    top:7em; 
+    color: blanchedalmond;
+}
+.like_abril :hover{
+    color: chartreuse;
+}
+.follow_abril {
+    position: relative;
+    display: flex;
+    left: 11.5em;
+    top:6em;
+    color: blanchedalmond;
+}
+.follow_abril :hover{
+    color: chartreuse;
+}
+.dowload_abil {
+    position: relative;
+    display: flex;
+    left: 13em;
+    top:5em;
+    color: blanchedalmond;
+}
+.dowload_abil :hover {
+    color: chartreuse;
+}
+.share_abril {
+    position: relative;
+    display: flex;
+    left: 14.5em;
+    top:4em;
+    width: 200px;
+    height: 1px;
+    color: blanchedalmond;
+}
+.share_abril:hover {
+    color: chartreuse;
+}
+.iconbuy1{
+    position: relative;
+    display: flex;
+    color: cornsilk;
+    text-decoration: none;
+    left: 3.3em;
+    height: 2px;
+    top: -1em;
+}
+.iconbuy1:hover {
+    color: chartreuse;
+}
+.iconbuy ion-icon{
+    padding: 1px;
+    margin: 10px;
+}
+/* beat track */
+
+.audio1 {
+    position: relative;
+    display: flex;
+    top: -7em;
+    left: 2em;
+}
+.audio1 source {
+    color: chartreuse;
+}
+
+/* beat 2 */
+
+.beats__artist_follow_abril2{
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    margin: 20px 60px;
+    top: -20em;
+    width: 500px;
+    height: 500px;
+    left: 23.5em;
+    border: 5px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    background-image: url(/Diseños/designe1.jpeg);
+    background-size: 100%;
+    box-shadow: 0 0 10px 2px rgb(255, 0, 0);
+}
+
+.abril__beats2{
+    position: relative;
+    top: 3%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    float: inline-end;
+}
+.name__song2{
+    position: relative;
+    top: -2%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    float: inline-end;
+}
+.img_miniatura_abril2{
+    width: 80px;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    left: 5%;
+    top:-4.5em;
+    border: 3px solid white;
+}
+.like_abril2{
+    position: relative;
+    display: flex;
+    left: 10em;
+    top:7em;
+    color: blanchedalmond;
+}
+.like_abril2 :hover{
+    color: chartreuse;
+}
+.follow_abril2 {
+    position: relative;
+    display: flex;
+    left: 11.5em;
+    top:6em;
+    color: blanchedalmond;
+}
+.follow_abril2 :hover{
+    color: chartreuse;
+}
+.dowload_abril2 {
+    position: relative;
+    display: flex;
+    left: 13em;
+    top:5em;
+    color: blanchedalmond;
+}
+.dowload_abril2 :hover {
+    color: chartreuse;
+}
+.share_abril2 {
+    position: relative;
+    display: flex;
+    left: 14.5em;
+    top:4em;
+    width: 200px;
+    height: 1px;
+    color: blanchedalmond;
+}
+.share_abri2:hover {
+    color: chartreuse;
+}
+.iconbuy2{
+    position: relative;
+    display: flex;
+    color: cornsilk;
+    text-decoration: none;
+    left: 3.3em;
+    height: 2px;
+    top: -1em;
+}
+.iconbuy2:hover {
+    color: chartreuse;
+}
+.iconbuy ion-icon{
+    padding: 1px;
+    margin: 10px;
+}
+/* beat track */
+
+.audio2 {
+    position: relative;
+    display: flex;
+    top: -7em;
+    left: 2em;
+}
+.audio2 source {
+    color: chartreuse;
+}
+
+/* beat 3  */
+
+.beats__artist_follow_barberi{
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    margin: 20px 60px;
+    top: -41.8em;
+    width: 500px;
+    height: 500px;
+    left: 47em;
+    border: 5px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    background-image: url(/Diseños/barberifnd.jpeg);
+    background-size: 100%;
+    box-shadow: 0 0 10px 2px rgb(255, 0, 0);
+}
+
+.abril__barberi{
+    position: relative;
+    top: 3%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    float: inline-end;
+}
+.name__song3{
+    position: relative;
+    top: -2%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    float: inline-end;
+}
+.img_miniatura_barberi{
+    width: 80px;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    left: 5%;
+    top:-4.5em;
+    border: 3px solid white;
+}
+.like_barberi{
+    position: relative;
+    display: flex;
+    left: 10em;
+    top:7em;
+    color: blanchedalmond;
+}
+.like_barberi :hover{
+    color: chartreuse;
+}
+.follow_barberi {
+    position: relative;
+    display: flex;
+    left: 11.5em;
+    top:6em;
+    color: blanchedalmond;
+}
+.follow_barberi :hover{
+    color: chartreuse;
+}
+.dowload_barberi {
+    position: relative;
+    display: flex;
+    left: 13em;
+    top:5em;
+    color: blanchedalmond;
+}
+.dowload_barberi :hover {
+    color: chartreuse;
+}
+.share_barberi {
+    position: relative;
+    display: flex;
+    left: 14.5em;
+    top:4em;
+    width: 200px;
+    height: 1px;
+    color: blanchedalmond;
+}
+.share_barberi:hover {
+    color: chartreuse;
+}
+.iconbuy3{
+    position: relative;
+    display: flex;
+    color: cornsilk;
+    text-decoration: none;
+    left: 3.3em;
+    height: 2px;
+    top: -1em;
+}
+.iconbuy3:hover {
+    color: chartreuse;
+}
+.iconbuy3 ion-icon{
+    padding: 1px;
+    margin: 1px;
+}
+/* beat track */
+
+.audio3 {
+    position: relative;
+    display: flex;
+    top: -7em;
+    left: 2em;
+}
+.audio3 source {
+    color: chartreuse;
+}
